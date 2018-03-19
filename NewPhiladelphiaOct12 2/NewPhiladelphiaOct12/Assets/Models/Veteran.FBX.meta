@@ -1,0 +1,399 @@
+fileFormatVersion: 2
+guid: c6f5ccdb2700e4584a9964658408bdb6
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Bone01
+    100002: Bone02
+    100004: Bone024
+    100006: Bone025
+    100008: Bone028
+    100010: Bone029
+    100012: Bone03
+    100014: Bone030
+    100016: Bone031
+    100018: Bone032
+    100020: Bone033
+    100022: Bone034
+    100024: Bone035
+    100026: Bone039
+    100028: Bone04
+    100030: Bone040
+    100032: Bone041
+    100034: Bone042
+    100036: Bone043
+    100038: Bone05
+    100040: Bone06
+    100042: Bone07
+    100044: Bone08
+    100046: Bone09
+    100048: Bone10
+    100050: Bone11
+    100052: Bone12
+    100054: Bone13
+    100056: Bone14
+    100058: Bone15
+    100060: Bone16
+    100062: Bone17
+    100064: Bone18
+    100066: Bone19
+    100068: Bone20
+    100070: Bone21
+    100072: Bone22
+    100074: Bone23
+    100076: CivilWarHatLoPoly001
+    100078: IK Chain001
+    100080: IK Chain002
+    100082: IK Chain003
+    100084: IK Chain004
+    100086: StickLoPoly
+    100088: //RootNode
+    100090: VeteranLoPoly
+    400000: Bone01
+    400002: Bone02
+    400004: Bone024
+    400006: Bone025
+    400008: Bone028
+    400010: Bone029
+    400012: Bone03
+    400014: Bone030
+    400016: Bone031
+    400018: Bone032
+    400020: Bone033
+    400022: Bone034
+    400024: Bone035
+    400026: Bone039
+    400028: Bone04
+    400030: Bone040
+    400032: Bone041
+    400034: Bone042
+    400036: Bone043
+    400038: Bone05
+    400040: Bone06
+    400042: Bone07
+    400044: Bone08
+    400046: Bone09
+    400048: Bone10
+    400050: Bone11
+    400052: Bone12
+    400054: Bone13
+    400056: Bone14
+    400058: Bone15
+    400060: Bone16
+    400062: Bone17
+    400064: Bone18
+    400066: Bone19
+    400068: Bone20
+    400070: Bone21
+    400072: Bone22
+    400074: Bone23
+    400076: CivilWarHatLoPoly001
+    400078: IK Chain001
+    400080: IK Chain002
+    400082: IK Chain003
+    400084: IK Chain004
+    400086: StickLoPoly
+    400088: //RootNode
+    400090: VeteranLoPoly
+    2300000: CivilWarHatLoPoly001
+    2300002: StickLoPoly
+    3300000: CivilWarHatLoPoly001
+    3300002: StickLoPoly
+    4300000: CivilWarHatLoPoly001
+    4300002: StickLoPoly
+    4300004: VeteranLoPoly
+    7400000: VetNodding
+    7400002: VetWalking
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: VeteranLoPoly
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: VetNodding
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 150
+      wrapMode: 4
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone01
+        weight: 1
+      - path: Bone01/Bone02
+        weight: 1
+      - path: Bone01/Bone02/Bone03
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone04
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone04/Bone05
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone04/Bone05/Bone06
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone04/Bone05/Bone06/Bone07
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone04/Bone05/Bone06/CivilWarHatLoPoly001
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone18
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone18/Bone19
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone18/Bone19/Bone20
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone18/Bone19/Bone20/Bone034
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone18/Bone19/Bone20/Bone034/Bone035
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone18/Bone19/Bone20/Bone034/Bone035/Bone041
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone18/Bone19/Bone20/Bone034/Bone035/Bone041/Bone042
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone18/Bone19/Bone20/Bone034/Bone035/Bone041/Bone042/Bone043
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone18/Bone19/Bone20/Bone034/Bone039
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone18/Bone19/Bone20/Bone034/Bone039/Bone040
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone18/Bone19/Bone20/Bone034/StickLoPoly
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone21
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone21/Bone22
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone21/Bone22/Bone23
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone21/Bone22/Bone23/Bone024
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone21/Bone22/Bone23/Bone024/Bone025
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone21/Bone22/Bone23/Bone024/Bone025/Bone031
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone21/Bone22/Bone23/Bone024/Bone025/Bone031/Bone032
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone21/Bone22/Bone23/Bone024/Bone025/Bone031/Bone032/Bone033
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone21/Bone22/Bone23/Bone024/Bone028
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone21/Bone22/Bone23/Bone024/Bone028/Bone029
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone21/Bone22/Bone23/Bone024/Bone028/Bone029/Bone030
+        weight: 1
+      - path: Bone01/Bone08
+        weight: 1
+      - path: Bone01/Bone08/Bone09
+        weight: 1
+      - path: Bone01/Bone08/Bone09/Bone10
+        weight: 1
+      - path: Bone01/Bone08/Bone09/Bone10/Bone11
+        weight: 1
+      - path: Bone01/Bone08/Bone09/Bone10/Bone11/Bone12
+        weight: 1
+      - path: Bone01/Bone13
+        weight: 1
+      - path: Bone01/Bone13/Bone14
+        weight: 1
+      - path: Bone01/Bone13/Bone14/Bone15
+        weight: 1
+      - path: Bone01/Bone13/Bone14/Bone15/Bone16
+        weight: 1
+      - path: Bone01/Bone13/Bone14/Bone15/Bone16/Bone17
+        weight: 1
+      - path: IK Chain001
+        weight: 1
+      - path: IK Chain002
+        weight: 1
+      - path: IK Chain003
+        weight: 1
+      - path: IK Chain004
+        weight: 1
+      - path: VeteranLoPoly
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: VetWalking
+      takeName: Take 001
+      firstFrame: 160
+      lastFrame: 195
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone01
+        weight: 1
+      - path: Bone01/Bone02
+        weight: 1
+      - path: Bone01/Bone02/Bone03
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone04
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone04/Bone05
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone04/Bone05/Bone06
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone04/Bone05/Bone06/Bone07
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone04/Bone05/Bone06/CivilWarHatLoPoly001
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone18
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone18/Bone19
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone18/Bone19/Bone20
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone18/Bone19/Bone20/Bone034
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone18/Bone19/Bone20/Bone034/Bone035
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone18/Bone19/Bone20/Bone034/Bone035/Bone041
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone18/Bone19/Bone20/Bone034/Bone035/Bone041/Bone042
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone18/Bone19/Bone20/Bone034/Bone035/Bone041/Bone042/Bone043
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone18/Bone19/Bone20/Bone034/Bone039
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone18/Bone19/Bone20/Bone034/Bone039/Bone040
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone18/Bone19/Bone20/Bone034/StickLoPoly
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone21
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone21/Bone22
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone21/Bone22/Bone23
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone21/Bone22/Bone23/Bone024
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone21/Bone22/Bone23/Bone024/Bone025
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone21/Bone22/Bone23/Bone024/Bone025/Bone031
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone21/Bone22/Bone23/Bone024/Bone025/Bone031/Bone032
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone21/Bone22/Bone23/Bone024/Bone025/Bone031/Bone032/Bone033
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone21/Bone22/Bone23/Bone024/Bone028
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone21/Bone22/Bone23/Bone024/Bone028/Bone029
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone21/Bone22/Bone23/Bone024/Bone028/Bone029/Bone030
+        weight: 1
+      - path: Bone01/Bone02/IK Chain003
+        weight: 1
+      - path: Bone01/Bone02/IK Chain004
+        weight: 1
+      - path: Bone01/Bone08
+        weight: 1
+      - path: Bone01/Bone08/Bone09
+        weight: 1
+      - path: Bone01/Bone08/Bone09/Bone10
+        weight: 1
+      - path: Bone01/Bone08/Bone09/Bone10/Bone11
+        weight: 1
+      - path: Bone01/Bone08/Bone09/Bone10/Bone11/Bone12
+        weight: 1
+      - path: Bone01/Bone13
+        weight: 1
+      - path: Bone01/Bone13/Bone14
+        weight: 1
+      - path: Bone01/Bone13/Bone14/Bone15
+        weight: 1
+      - path: Bone01/Bone13/Bone14/Bone15/Bone16
+        weight: 1
+      - path: Bone01/Bone13/Bone14/Bone15/Bone16/Bone17
+        weight: 1
+      - path: IK Chain001
+        weight: 1
+      - path: IK Chain002
+        weight: 1
+      - path: VeteranLoPoly
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 

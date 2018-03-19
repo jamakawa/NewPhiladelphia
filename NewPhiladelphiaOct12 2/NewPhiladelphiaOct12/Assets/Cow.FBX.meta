@@ -1,0 +1,270 @@
+fileFormatVersion: 2
+guid: 40c66a87b29ba4d03b33a2fbb6f86b7d
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Bone011
+    100002: Bone012
+    100004: Bone013
+    100006: Bone014
+    100008: Bone015
+    100010: Bone016
+    100012: Bone017
+    100014: Bone018
+    100016: Bone019
+    100018: Bone020
+    100020: Bone021
+    100022: Bone022
+    100024: Bone031
+    100026: Bone032
+    100028: Bone033
+    100030: Bone034
+    100032: Bone035
+    100034: Bone036
+    100036: Bone037
+    100038: Bone038
+    100040: Bone039
+    100042: Bone040
+    100044: Bone047
+    100046: Bone048
+    100048: Bone049
+    100050: Bone050
+    100052: Bone051
+    100054: Bone052
+    100056: Bone053
+    100058: Bone054
+    100060: Bone055
+    100062: Bone056
+    100064: Bone057
+    100066: Bone058
+    100068: Bone059
+    100070: Bone060
+    100072: Bone061
+    100074: Bone062
+    100076: Cow
+    100078: //RootNode
+    100080: IK Chain001
+    100082: IK Chain002
+    100084: IK Chain003
+    100086: IK Chain004
+    100088: IK Chain005
+    400000: Bone011
+    400002: Bone012
+    400004: Bone013
+    400006: Bone014
+    400008: Bone015
+    400010: Bone016
+    400012: Bone017
+    400014: Bone018
+    400016: Bone019
+    400018: Bone020
+    400020: Bone021
+    400022: Bone022
+    400024: Bone031
+    400026: Bone032
+    400028: Bone033
+    400030: Bone034
+    400032: Bone035
+    400034: Bone036
+    400036: Bone037
+    400038: Bone038
+    400040: Bone039
+    400042: Bone040
+    400044: Bone047
+    400046: Bone048
+    400048: Bone049
+    400050: Bone050
+    400052: Bone051
+    400054: Bone052
+    400056: Bone053
+    400058: Bone054
+    400060: Bone055
+    400062: Bone056
+    400064: Bone057
+    400066: Bone058
+    400068: Bone059
+    400070: Bone060
+    400072: Bone061
+    400074: Bone062
+    400076: Cow
+    400078: //RootNode
+    400080: IK Chain001
+    400082: IK Chain002
+    400084: IK Chain003
+    400086: IK Chain004
+    400088: IK Chain005
+    4300000: Cow
+    7400000: CowAnim
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Cow
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: CowAnim
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 400
+      wrapMode: 4
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone021
+        weight: 1
+      - path: Bone021/Bone022
+        weight: 1
+      - path: Bone021/Bone022/Bone011
+        weight: 1
+      - path: Bone021/Bone022/Bone011/Bone012
+        weight: 1
+      - path: Bone021/Bone022/Bone011/Bone012/Bone013
+        weight: 1
+      - path: Bone021/Bone022/Bone011/Bone012/Bone013/Bone014
+        weight: 1
+      - path: Bone021/Bone022/Bone011/Bone012/Bone013/Bone014/Bone015
+        weight: 1
+      - path: Bone021/Bone022/Bone016
+        weight: 1
+      - path: Bone021/Bone022/Bone016/Bone017
+        weight: 1
+      - path: Bone021/Bone022/Bone016/Bone017/Bone018
+        weight: 1
+      - path: Bone021/Bone022/Bone016/Bone017/Bone018/Bone019
+        weight: 1
+      - path: Bone021/Bone022/Bone016/Bone017/Bone018/Bone019/Bone020
+        weight: 1
+      - path: Bone021/Bone022/Bone047
+        weight: 1
+      - path: Bone021/Bone022/Bone047/Bone048
+        weight: 1
+      - path: Bone021/Bone022/Bone047/Bone048/Bone049
+        weight: 1
+      - path: Bone021/Bone022/Bone047/Bone048/Bone049/Bone050
+        weight: 1
+      - path: Bone021/Bone022/Bone047/Bone048/Bone049/Bone050/Bone051
+        weight: 1
+      - path: Bone021/Bone022/Bone047/Bone048/Bone049/Bone050/Bone061
+        weight: 1
+      - path: Bone021/Bone022/Bone047/Bone048/Bone049/Bone050/Bone062
+        weight: 1
+      - path: Bone021/Bone031
+        weight: 1
+      - path: Bone021/Bone031/Bone032
+        weight: 1
+      - path: Bone021/Bone031/Bone032/Bone033
+        weight: 1
+      - path: Bone021/Bone031/Bone032/Bone033/Bone034
+        weight: 1
+      - path: Bone021/Bone031/Bone032/Bone033/Bone034/Bone035
+        weight: 1
+      - path: Bone021/Bone036
+        weight: 1
+      - path: Bone021/Bone036/Bone037
+        weight: 1
+      - path: Bone021/Bone036/Bone037/Bone038
+        weight: 1
+      - path: Bone021/Bone036/Bone037/Bone038/Bone039
+        weight: 1
+      - path: Bone021/Bone036/Bone037/Bone038/Bone039/Bone040
+        weight: 1
+      - path: Bone021/Bone052
+        weight: 1
+      - path: Bone021/Bone052/Bone053
+        weight: 1
+      - path: Bone021/Bone052/Bone053/Bone054
+        weight: 1
+      - path: Bone021/Bone052/Bone053/Bone054/Bone055
+        weight: 1
+      - path: Bone021/Bone052/Bone053/Bone054/Bone055/Bone056
+        weight: 1
+      - path: Bone021/Bone052/Bone053/Bone054/Bone055/Bone056/Bone057
+        weight: 1
+      - path: Bone021/Bone052/Bone053/Bone054/Bone055/Bone056/Bone057/Bone058
+        weight: 1
+      - path: Bone021/Bone052/Bone053/Bone054/Bone055/Bone056/Bone057/Bone058/Bone059
+        weight: 1
+      - path: Bone021/Bone052/Bone053/Bone054/Bone055/Bone056/Bone057/Bone058/Bone059/Bone060
+        weight: 1
+      - path: Cow
+        weight: 1
+      - path: IK Chain001
+        weight: 1
+      - path: IK Chain002
+        weight: 1
+      - path: IK Chain003
+        weight: 1
+      - path: IK Chain004
+        weight: 1
+      - path: IK Chain005
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 

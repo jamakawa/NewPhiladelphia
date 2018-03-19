@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+    <Tracking>
+        <ImageTarget name="JenkinsTargetSideRight" size="0.666700 0.666700"/>
+        <ImageTarget name="WagonCube10Inches.Front" size="0.833333 0.833333"/>
+        <ImageTarget name="WagonCube10Inches.Back" size="0.833333 0.833333"/>
+        <ImageTarget name="WagonCube10Inches.Right" size="0.833333 0.833333"/>
+        <ImageTarget name="WagonCube10Inches.Left" size="0.833333 0.833333"/>
+        <ImageTarget name="WagonCube10Inches.Top" size="0.833333 0.833333"/>
+        <ImageTarget name="WagonCube3.Front" size="0.666700 0.666700"/>
+        <ImageTarget name="WagonCube3.Back" size="0.666700 0.666700"/>
+        <ImageTarget name="WagonCube3.Right" size="0.666700 0.666700"/>
+        <ImageTarget name="WagonCube3.Left" size="0.666700 0.666700"/>
+        <ImageTarget name="WagonCube3.Top" size="0.666700 0.666700"/>
+        <ImageTarget name="Wagon2.Front" size="0.666700 0.666700"/>
+        <ImageTarget name="Wagon2.Back" size="0.666700 0.666700"/>
+        <ImageTarget name="Wagon2.Right" size="0.666700 0.666700"/>
+        <ImageTarget name="Wagon2.Left" size="0.666700 0.666700"/>
+        <ImageTarget name="WagonCube.Front" size="10.000000 10.000000"/>
+        <ImageTarget name="WagonCube.Back" size="10.000000 10.000000"/>
+        <ImageTarget name="WagonCube.Right" size="10.000000 10.000000"/>
+        <ImageTarget name="WagonCube.Left" size="10.000000 10.000000"/>
+        <MultiTarget name="WagonCube10Inches">
+            <Part name="WagonCube10Inches.Left" translation="-0.41666650772094727 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="WagonCube10Inches.Right" translation="0.41666650772094727 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="WagonCube10Inches.Front" translation="0 0 0.41666650772094727" rotation="AD: 1 0 0 0"/>
+            <Part name="WagonCube10Inches.Back" translation="0 0 -0.41666650772094727" rotation="AD: 0 1 0 180"/>
+            <Part name="WagonCube10Inches.Top" translation="0 0.41666650772094727 0" rotation="AD: 1 0 0 -90"/>
+        </MultiTarget>
+        <MultiTarget name="WagonCube3">
+            <Part name="WagonCube3.Left" translation="-0.3333500027656555 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="WagonCube3.Right" translation="0.3333500027656555 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="WagonCube3.Front" translation="0 0 0.3333500027656555" rotation="AD: 1 0 0 0"/>
+            <Part name="WagonCube3.Back" translation="0 0 -0.3333500027656555" rotation="AD: 0 1 0 180"/>
+            <Part name="WagonCube3.Top" translation="0 0.3333500027656555 0" rotation="AD: 1 0 0 -90"/>
+        </MultiTarget>
+        <MultiTarget name="WagonCube2">
+            <Part name="Wagon2.Left" translation="-0.3333500027656555 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="Wagon2.Right" translation="0.3333500027656555 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="Wagon2.Front" translation="0 0 0.3333500027656555" rotation="AD: 1 0 0 0"/>
+            <Part name="Wagon2.Back" translation="0 0 -0.3333500027656555" rotation="AD: 0 1 0 180"/>
+        </MultiTarget>
+        <MultiTarget name="WagonCube">
+            <Part name="WagonCube.Left" translation="-5.0 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="WagonCube.Right" translation="5.0 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="WagonCube.Front" translation="0 0 5.0" rotation="AD: 1 0 0 0"/>
+            <Part name="WagonCube.Back" translation="0 0 -5.0" rotation="AD: 0 1 0 180"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>
