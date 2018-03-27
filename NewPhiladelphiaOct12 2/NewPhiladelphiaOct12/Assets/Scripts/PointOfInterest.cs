@@ -147,12 +147,18 @@ public class PointOfInterest : MonoBehaviour {
 	
 	/*** Put code here when this point of interest becomes unfocused ***/
 	public void Unfocus() {
-        //This stops the audio on civil war vet.
-        var audio = audioOtherObject.GetComponent <AudioSource>();
-
+        //This stops the audio on civil war vet
+        if (audioOtherObject != null)
+        {
+            var audio = audioOtherObject.GetComponent<AudioSource>();
+        }
+        else
+        {
+            Debug.Log(this.gameObject + " audio other object is not assigned");
+        }
         //stops the audio clip
-        if (audio != null)
-			audio.Stop();
+        if (GetComponent<AudioSource>() != null)
+			GetComponent<AudioSource>().Stop();
 
 	}
 }
