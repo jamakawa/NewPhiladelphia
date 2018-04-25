@@ -1,0 +1,256 @@
+fileFormatVersion: 2
+guid: 74d5c723102e44d2799c8a5a5360edb2
+timeCreated: 1522251794
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Axel002
+    100002: Axel01
+    100004: Box009
+    100006: Box012
+    100008: BoxContainer
+    100010: BoxContainer001
+    100012: BoxContainer002
+    100014: Brakehandle
+    100016: Chair
+    100018: Chair001
+    100020: LaundrySheet003
+    100022: LaundrySheet004
+    100024: LaundrySheet005
+    100026: LaundrySheet1
+    100028: Wagon
+    100030: WagonCoverLoPoly
+    100032: //RootNode
+    100034: Wheel003
+    100036: Wheel004
+    100038: Wheel005
+    100040: Wheel006
+    400000: Axel002
+    400002: Axel01
+    400004: Box009
+    400006: Box012
+    400008: BoxContainer
+    400010: BoxContainer001
+    400012: BoxContainer002
+    400014: Brakehandle
+    400016: Chair
+    400018: Chair001
+    400020: LaundrySheet003
+    400022: LaundrySheet004
+    400024: LaundrySheet005
+    400026: LaundrySheet1
+    400028: Wagon
+    400030: WagonCoverLoPoly
+    400032: //RootNode
+    400034: Wheel003
+    400036: Wheel004
+    400038: Wheel005
+    400040: Wheel006
+    2100000: WagonCoverLoPoly
+    2100002: Wheel
+    2100004: Chair
+    2100006: 07 - Default
+    2100008: SheetLoPoly
+    2100010: Wagon
+    2300000: Axel002
+    2300002: Axel01
+    2300004: Box009
+    2300006: Box012
+    2300008: BoxContainer
+    2300010: BoxContainer001
+    2300012: BoxContainer002
+    2300014: Brakehandle
+    2300016: Chair
+    2300018: Chair001
+    2300020: LaundrySheet003
+    2300022: LaundrySheet004
+    2300024: LaundrySheet005
+    2300026: LaundrySheet1
+    2300028: Wagon
+    2300030: WagonCoverLoPoly
+    2300032: Wheel003
+    2300034: Wheel004
+    2300036: Wheel005
+    2300038: Wheel006
+    3300000: Axel002
+    3300002: Axel01
+    3300004: Box009
+    3300006: Box012
+    3300008: BoxContainer
+    3300010: BoxContainer001
+    3300012: BoxContainer002
+    3300014: Brakehandle
+    3300016: Chair
+    3300018: Chair001
+    3300020: LaundrySheet003
+    3300022: LaundrySheet004
+    3300024: LaundrySheet005
+    3300026: LaundrySheet1
+    3300028: Wagon
+    3300030: WagonCoverLoPoly
+    3300032: Wheel003
+    3300034: Wheel004
+    3300036: Wheel005
+    3300038: Wheel006
+    4300000: WagonCoverLoPoly
+    4300002: Brakehandle
+    4300004: Box012
+    4300006: Box009
+    4300008: Chair
+    4300010: Axel002
+    4300012: BoxContainer002
+    4300014: LaundrySheet005
+    4300016: Axel01
+    4300018: LaundrySheet1
+    4300020: LaundrySheet003
+    4300022: LaundrySheet004
+    4300024: BoxContainer
+    4300026: BoxContainer001
+    4300028: Chair001
+    4300030: Wagon
+    4300032: Wheel003
+    4300034: Wheel004
+    4300036: Wheel005
+    4300038: Wheel006
+    7400000: WagonArriving
+    9500000: //RootNode
+    11100000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 07 - Default
+    second: {fileID: 2100000, guid: a4b29d70cd9a9490fbd8bf88b7133055, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Chair
+    second: {fileID: 2100000, guid: cb3279142592a46799ae390c71cb8b14, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SheetLoPoly
+    second: {fileID: 2100000, guid: 624227c5e54cb441e9cf7f9d52f9eed6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wagon
+    second: {fileID: 2100000, guid: b43d66b98ca8c4d56b16718e77f6ccab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WagonCoverLoPoly
+    second: {fileID: 2100000, guid: 3f50e09c536614b3da8eb9ef865e03c8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wheel
+    second: {fileID: 2100000, guid: 675b275c1c2df4e02ac42fcb745e2fa7, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: WagonArriving
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 90
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 3.4
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

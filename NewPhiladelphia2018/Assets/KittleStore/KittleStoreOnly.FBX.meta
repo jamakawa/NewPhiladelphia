@@ -1,0 +1,212 @@
+fileFormatVersion: 2
+guid: e1597ebe04bfa4a739cb6f9cb283146a
+timeCreated: 1522249142
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: BucktownStoreExterior
+    100002: BucktownStoreExterior001
+    100004: Chimney
+    100006: Door
+    100008: ExteriorWindow
+    100010: ExteriorWindow001
+    100012: ExteriorWindow002
+    100014: FalseFrontStoreLoPoly
+    100016: //RootNode
+    100018: ShoeshopExteriorLoPoly
+    100020: ShoeshopInteriorloPoly
+    100022: WindowSillInterior
+    100024: WindowSillInterior001
+    100026: AdBoard
+    100028: BucktownStoreExterior002
+    400000: BucktownStoreExterior
+    400002: BucktownStoreExterior001
+    400004: Chimney
+    400006: Door
+    400008: ExteriorWindow
+    400010: ExteriorWindow001
+    400012: ExteriorWindow002
+    400014: FalseFrontStoreLoPoly
+    400016: //RootNode
+    400018: ShoeshopExteriorLoPoly
+    400020: ShoeshopInteriorloPoly
+    400022: WindowSillInterior
+    400024: WindowSillInterior001
+    400026: AdBoard
+    400028: BucktownStoreExterior002
+    2100000: 14 - Default
+    2100002: FalseFront
+    2100004: ShoeShopLoPoly
+    2100006: ShopInteriorLopoly
+    2100008: 13 - Default
+    2100010: InteriorWindow
+    2100012: ExteriorWindow
+    2100014: Door
+    2300000: BucktownStoreExterior
+    2300002: BucktownStoreExterior001
+    2300004: Chimney
+    2300006: Door
+    2300008: ExteriorWindow
+    2300010: ExteriorWindow001
+    2300012: ExteriorWindow002
+    2300014: FalseFrontStoreLoPoly
+    2300016: ShoeshopExteriorLoPoly
+    2300018: ShoeshopInteriorloPoly
+    2300020: WindowSillInterior
+    2300022: WindowSillInterior001
+    2300024: AdBoard
+    2300026: BucktownStoreExterior002
+    3300000: BucktownStoreExterior
+    3300002: BucktownStoreExterior001
+    3300004: Chimney
+    3300006: Door
+    3300008: ExteriorWindow
+    3300010: ExteriorWindow001
+    3300012: ExteriorWindow002
+    3300014: FalseFrontStoreLoPoly
+    3300016: ShoeshopExteriorLoPoly
+    3300018: ShoeshopInteriorloPoly
+    3300020: WindowSillInterior
+    3300022: WindowSillInterior001
+    3300024: AdBoard
+    3300026: BucktownStoreExterior002
+    4300000: BucktownStoreExterior
+    4300002: FalseFrontStoreLoPoly
+    4300004: ShoeshopExteriorLoPoly
+    4300006: ShoeshopInteriorloPoly
+    4300008: Chimney
+    4300010: WindowSillInterior
+    4300012: WindowSillInterior001
+    4300014: ExteriorWindow
+    4300016: Door
+    4300018: ExteriorWindow001
+    4300020: ExteriorWindow002
+    4300022: BucktownStoreExterior001
+    4300024: AdBoard
+    4300026: BucktownStoreExterior002
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 13 - Default
+    second: {fileID: 2100000, guid: 95560080c74af4e83a3ed7f3979108d1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 14 - Default
+    second: {fileID: 2100000, guid: 9f58da12daaa34d71a5c63b2fe9862c9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AdBoardtemplate
+    second: {fileID: 2100000, guid: 34c299856356249b5bf9790ec1c1c6c6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Door
+    second: {fileID: 2100000, guid: 0fe96a58bf26e431c8c79e4d9a416669, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ExteriorWindow
+    second: {fileID: 2100000, guid: e716b69d7b8504668af92e86a3ae3e20, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FalseFront
+    second: {fileID: 2100000, guid: 80b371e7265c845e6ba34b3ac8524c40, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: InteriorWindow
+    second: {fileID: 2100000, guid: d28283b4c25a34555a0f29b5bb8e446b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ShoeShopLoPoly
+    second: {fileID: 2100000, guid: a02cb4f5933fe49f1a7564384b6b01ed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ShopInteriorLopoly
+    second: {fileID: 2100000, guid: c5e5e7d72918d48f4b99205f95ab0040, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.4
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

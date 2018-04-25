@@ -1,0 +1,137 @@
+fileFormatVersion: 2
+guid: 2eb66b500706248eca5b0632f194d40f
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: WoodBeamFence
+    100004: WoodBeamFence001
+    100006: WoodBeamFence002
+    100008: WoodBeamFence003
+    100010: WoodBeamFence008
+    100012: WoodBeamFence019
+    100014: WoodBeamFence020
+    100016: WoodBeamFence021
+    100018: WoodBeamFence022
+    100020: WoodBeamFence023
+    100022: WoodBeamFence024
+    100024: WoodBeamFence025
+    100026: WoodBeamFence026
+    100028: WoodBeamFence033
+    100030: WoodBeamFence034
+    400000: //RootNode
+    400002: WoodBeamFence
+    400004: WoodBeamFence001
+    400006: WoodBeamFence002
+    400008: WoodBeamFence003
+    400010: WoodBeamFence008
+    400012: WoodBeamFence019
+    400014: WoodBeamFence020
+    400016: WoodBeamFence021
+    400018: WoodBeamFence022
+    400020: WoodBeamFence023
+    400022: WoodBeamFence024
+    400024: WoodBeamFence025
+    400026: WoodBeamFence026
+    400028: WoodBeamFence033
+    400030: WoodBeamFence034
+    2300000: WoodBeamFence
+    2300002: WoodBeamFence001
+    2300004: WoodBeamFence002
+    2300006: WoodBeamFence003
+    2300008: WoodBeamFence008
+    2300010: WoodBeamFence019
+    2300012: WoodBeamFence020
+    2300014: WoodBeamFence021
+    2300016: WoodBeamFence022
+    2300018: WoodBeamFence023
+    2300020: WoodBeamFence024
+    2300022: WoodBeamFence025
+    2300024: WoodBeamFence026
+    2300026: WoodBeamFence033
+    2300028: WoodBeamFence034
+    3300000: WoodBeamFence
+    3300002: WoodBeamFence001
+    3300004: WoodBeamFence002
+    3300006: WoodBeamFence003
+    3300008: WoodBeamFence008
+    3300010: WoodBeamFence019
+    3300012: WoodBeamFence020
+    3300014: WoodBeamFence021
+    3300016: WoodBeamFence022
+    3300018: WoodBeamFence023
+    3300020: WoodBeamFence024
+    3300022: WoodBeamFence025
+    3300024: WoodBeamFence026
+    3300026: WoodBeamFence033
+    3300028: WoodBeamFence034
+    4300000: WoodBeamFence008
+    4300002: WoodBeamFence020
+    4300004: WoodBeamFence021
+    4300006: WoodBeamFence022
+    4300008: WoodBeamFence023
+    4300010: WoodBeamFence024
+    4300012: WoodBeamFence025
+    4300014: WoodBeamFence001
+    4300016: WoodBeamFence002
+    4300018: WoodBeamFence003
+    4300020: WoodBeamFence019
+    4300022: WoodBeamFence
+    4300024: WoodBeamFence026
+    4300026: WoodBeamFence033
+    4300028: WoodBeamFence034
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

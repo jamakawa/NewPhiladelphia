@@ -1,0 +1,185 @@
+fileFormatVersion: 2
+guid: 105361969c149412e8ce7512f7c8e065
+timeCreated: 1522263177
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Chimney
+    100002: Door
+    100004: Door003
+    100006: //RootNode
+    100008: JenkinslHouseNorthLoPoly
+    100010: JenkinslHouseNorthLoPoly001
+    100012: JenkinslHouseNorthLoPoly002
+    100014: Object003
+    100016: PorchPillar
+    100018: PorchPillar001
+    100020: Window003
+    100022: Window006
+    100024: Window1
+    100026: Window2
+    400000: Chimney
+    400002: Door
+    400004: Door003
+    400006: //RootNode
+    400008: JenkinslHouseNorthLoPoly
+    400010: JenkinslHouseNorthLoPoly001
+    400012: JenkinslHouseNorthLoPoly002
+    400014: Object003
+    400016: PorchPillar
+    400018: PorchPillar001
+    400020: Window003
+    400022: Window006
+    400024: Window1
+    400026: Window2
+    2100000: Generichouse
+    2100002: 'Material #36'
+    2100004: 03 - Default
+    2100006: 02 - Default
+    2100008: JenkinsHouseLoPoly
+    2300000: Chimney
+    2300002: Door
+    2300004: Door003
+    2300006: JenkinslHouseNorthLoPoly
+    2300008: JenkinslHouseNorthLoPoly001
+    2300010: JenkinslHouseNorthLoPoly002
+    2300012: Object003
+    2300014: PorchPillar
+    2300016: PorchPillar001
+    2300018: Window003
+    2300020: Window006
+    2300022: Window1
+    2300024: Window2
+    3300000: Chimney
+    3300002: Door
+    3300004: Door003
+    3300006: JenkinslHouseNorthLoPoly
+    3300008: JenkinslHouseNorthLoPoly001
+    3300010: JenkinslHouseNorthLoPoly002
+    3300012: Object003
+    3300014: PorchPillar
+    3300016: PorchPillar001
+    3300018: Window003
+    3300020: Window006
+    3300022: Window1
+    3300024: Window2
+    4300000: JenkinslHouseNorthLoPoly
+    4300002: Window006
+    4300004: Object003
+    4300006: Door003
+    4300008: Window003
+    4300010: Window2
+    4300012: Chimney
+    4300014: Door
+    4300016: Window1
+    4300018: JenkinslHouseNorthLoPoly002
+    4300020: JenkinslHouseNorthLoPoly001
+    4300022: PorchPillar
+    4300024: PorchPillar001
+    11100000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 02 - Default
+    second: {fileID: 2100000, guid: 7518441e79942432dbb8e16a681f6d1f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 03 - Default
+    second: {fileID: 2100000, guid: 7c593661a2e4f4e199117f8e75cfb3b1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Generichouse
+    second: {fileID: 2100000, guid: c77309f20d9fa44369bbf539f2948f72, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: JenkinsHouseLoPoly
+    second: {fileID: 2100000, guid: c77309f20d9fa44369bbf539f2948f72, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #36'
+    second: {fileID: 2100000, guid: 7518441e79942432dbb8e16a681f6d1f, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 4.2
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

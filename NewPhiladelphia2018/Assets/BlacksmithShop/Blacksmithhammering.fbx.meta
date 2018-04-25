@@ -1,0 +1,329 @@
+fileFormatVersion: 2
+guid: 902be3dfa77784aacaa4df3a7e77d3b2
+timeCreated: 1524334636
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Avil
+    100002: BlacksmithBodyLoPoly
+    100004: //RootNode
+    100006: BlacksmithHeadLoPoly
+    100008: Bone001
+    100010: Bone002
+    100012: Bone003
+    100014: Bone004
+    100016: Bone005
+    100018: Bone006
+    100020: Bone007
+    100022: Bone008
+    100024: Bone009
+    100026: Bone010
+    100028: Bone011
+    100030: Bone012
+    100032: Bone013
+    100034: Bone014
+    100036: Bone015
+    100038: Bone016
+    100040: Bone017
+    100042: Bone018
+    100044: Bone019
+    100046: Bone020
+    100048: Bone021
+    100050: Bone022
+    100052: Bone023
+    100054: Bone024
+    100056: Bone025
+    100058: Bone026
+    100060: Bone027
+    100062: Bone028
+    100064: Bone029
+    100066: Bone030
+    100068: Bone031
+    100070: Bone032
+    100072: Bone038
+    100074: Bone039
+    100076: Bone040
+    100078: Bone041
+    100080: Bone042
+    100082: Bone043
+    100084: Bone044
+    100086: Bone045
+    100088: Bone046
+    100090: Bone047
+    100092: Bone048
+    100094: Bone049
+    100096: Bone050
+    100098: Bone051
+    100100: Bone052
+    100102: Bone053
+    100104: Bone054
+    100106: Bone055
+    100108: Bone056
+    100110: Bone057
+    100112: Bone058
+    100114: Bone059
+    100116: Bone060
+    100118: Bone061
+    100120: Bone062
+    100122: Bone063
+    100124: Bone064
+    100126: Bone065
+    100128: Bone066
+    100130: Bone067
+    100132: Bone068
+    100134: Bone069
+    100136: Bone070
+    100138: Bone071
+    100140: Bone072
+    100142: Bone073
+    100144: Lefteye
+    100146: Lefteye001
+    100148: Longhammer
+    100150: MetalBar
+    100152: Smithing_Tongs
+    100154: TreeStump
+    400000: Avil
+    400002: BlacksmithBodyLoPoly
+    400004: //RootNode
+    400006: BlacksmithHeadLoPoly
+    400008: Bone001
+    400010: Bone002
+    400012: Bone003
+    400014: Bone004
+    400016: Bone005
+    400018: Bone006
+    400020: Bone007
+    400022: Bone008
+    400024: Bone009
+    400026: Bone010
+    400028: Bone011
+    400030: Bone012
+    400032: Bone013
+    400034: Bone014
+    400036: Bone015
+    400038: Bone016
+    400040: Bone017
+    400042: Bone018
+    400044: Bone019
+    400046: Bone020
+    400048: Bone021
+    400050: Bone022
+    400052: Bone023
+    400054: Bone024
+    400056: Bone025
+    400058: Bone026
+    400060: Bone027
+    400062: Bone028
+    400064: Bone029
+    400066: Bone030
+    400068: Bone031
+    400070: Bone032
+    400072: Bone038
+    400074: Bone039
+    400076: Bone040
+    400078: Bone041
+    400080: Bone042
+    400082: Bone043
+    400084: Bone044
+    400086: Bone045
+    400088: Bone046
+    400090: Bone047
+    400092: Bone048
+    400094: Bone049
+    400096: Bone050
+    400098: Bone051
+    400100: Bone052
+    400102: Bone053
+    400104: Bone054
+    400106: Bone055
+    400108: Bone056
+    400110: Bone057
+    400112: Bone058
+    400114: Bone059
+    400116: Bone060
+    400118: Bone061
+    400120: Bone062
+    400122: Bone063
+    400124: Bone064
+    400126: Bone065
+    400128: Bone066
+    400130: Bone067
+    400132: Bone068
+    400134: Bone069
+    400136: Bone070
+    400138: Bone071
+    400140: Bone072
+    400142: Bone073
+    400144: Lefteye
+    400146: Lefteye001
+    400148: Longhammer
+    400150: MetalBar
+    400152: Smithing_Tongs
+    400154: TreeStump
+    2100000: BlacksmithloPoly
+    2100002: Tongs
+    2100004: LongHammer
+    2100006: anvil
+    2100008: TreeStump
+    2300000: Avil
+    2300002: Lefteye
+    2300004: Lefteye001
+    2300006: Longhammer
+    2300008: MetalBar
+    2300010: Smithing_Tongs
+    2300012: TreeStump
+    3300000: Avil
+    3300002: Lefteye
+    3300004: Lefteye001
+    3300006: Longhammer
+    3300008: MetalBar
+    3300010: Smithing_Tongs
+    3300012: TreeStump
+    4300000: BlacksmithBodyLoPoly
+    4300002: Lefteye001
+    4300004: Lefteye
+    4300006: Smithing_Tongs
+    4300008: MetalBar
+    4300010: Longhammer
+    4300012: BlacksmithHeadLoPoly
+    4300014: Avil
+    4300016: TreeStump
+    7400000: BlacksmithHammering
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: BlacksmithBodyLoPoly
+    13700002: BlacksmithHeadLoPoly
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BlacksmithloPoly
+    second: {fileID: 2100000, guid: 2cac7abbb8f0c412e8a9b438860061e4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LongHammer
+    second: {fileID: 2100000, guid: a2ce9ae3fe9c84a06938bfa94c76fdc2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tongs
+    second: {fileID: 2100000, guid: 430084b5d297742538c1d44d32307c28, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TreeStump
+    second: {fileID: 2100000, guid: 113b9f616938041a1a437ff0bb58e98e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: anvil
+    second: {fileID: 2100000, guid: 581f63017028c4a96ae3123f504d0595, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: BlacksmithHammering
+      takeName: Take 001
+      firstFrame: 2
+      lastFrame: 377.00003
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 3
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

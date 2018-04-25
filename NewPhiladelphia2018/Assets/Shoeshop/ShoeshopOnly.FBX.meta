@@ -1,0 +1,494 @@
+fileFormatVersion: 2
+guid: e999f053804b34506bc32efaedd3b94d
+timeCreated: 1522165636
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: bench
+    100002: BootOnlyLoPoly005
+    100004: Broom
+    100006: BuildingPiers
+    100008: BuildingPiers001
+    100010: BuildingPiers002
+    100012: BuildingPiers003
+    100014: BuildingPiers004
+    100016: BuildingPiers005
+    100018: Chair
+    100020: Chimney
+    100022: Door
+    100024: ExteriorWindow
+    100026: ExteriorWindow001
+    100028: ExteriorWindow002
+    100030: Hammer002
+    100032: Hammer004
+    100034: HeaterDrawerLoRes
+    100036: HeaterLowRes
+    100038: HorseBrush
+    100040: HorseBrush001
+    100042: LoPolyLantern
+    100044: LoPolyShoe002
+    100046: LoPolyShoe003
+    100048: LoPolyShoe011
+    100050: PotHolder
+    100052: PotKnob
+    100054: PotLoRes02
+    100056: PotLoRes03
+    100058: PotLowRes
+    100060: ShelfLoPoly
+    100062: shoeMold023
+    100064: shoeMold025
+    100066: ShoeshopExteriorLoPoly
+    100068: ShoeshopInteriorloPoly
+    100070: //RootNode
+    100072: Sole
+    100074: Sole001
+    100076: Sole002
+    100078: Sole003
+    100080: Sole004
+    100082: StoneStepLoPoly001
+    100084: tableLoPoly
+    100086: WallPanel
+    100088: WallPanel001
+    100090: WindowSillInterior
+    100092: WindowSillInterior001
+    100094: WindowSillInterior002
+    100096: Wrench001
+    400000: bench
+    400002: BootOnlyLoPoly005
+    400004: Broom
+    400006: BuildingPiers
+    400008: BuildingPiers001
+    400010: BuildingPiers002
+    400012: BuildingPiers003
+    400014: BuildingPiers004
+    400016: BuildingPiers005
+    400018: Chair
+    400020: Chimney
+    400022: Door
+    400024: ExteriorWindow
+    400026: ExteriorWindow001
+    400028: ExteriorWindow002
+    400030: Hammer002
+    400032: Hammer004
+    400034: HeaterDrawerLoRes
+    400036: HeaterLowRes
+    400038: HorseBrush
+    400040: HorseBrush001
+    400042: LoPolyLantern
+    400044: LoPolyShoe002
+    400046: LoPolyShoe003
+    400048: LoPolyShoe011
+    400050: PotHolder
+    400052: PotKnob
+    400054: PotLoRes02
+    400056: PotLoRes03
+    400058: PotLowRes
+    400060: ShelfLoPoly
+    400062: shoeMold023
+    400064: shoeMold025
+    400066: ShoeshopExteriorLoPoly
+    400068: ShoeshopInteriorloPoly
+    400070: //RootNode
+    400072: Sole
+    400074: Sole001
+    400076: Sole002
+    400078: Sole003
+    400080: Sole004
+    400082: StoneStepLoPoly001
+    400084: tableLoPoly
+    400086: WallPanel
+    400088: WallPanel001
+    400090: WindowSillInterior
+    400092: WindowSillInterior001
+    400094: WindowSillInterior002
+    400096: Wrench001
+    2100000: Shelf
+    2100002: Chair
+    2100004: LoPolyLantern
+    2100006: DelanyCeramic2
+    2100008: DelanyCeramic1
+    2100010: Pot
+    2100012: Stove
+    2100014: StoveDrawer
+    2100016: TableLoPoly
+    2100018: Brush
+    2100020: Broom
+    2100022: 'Material #37'
+    2100024: Bench
+    2100026: Country
+    2100028: Wrench
+    2100030: ShoeShopLoPoly
+    2100032: ShopInteriorLopoly
+    2100034: 'Material #36'
+    2100036: InteriorWindow
+    2100038: ExteriorWindow
+    2100040: LeatherSole
+    2100042: 'Material #38'
+    2100044: Door
+    2100046: Shoeshop
+    2100048: ShoeLopOly
+    2100050: BootLoPoly
+    2100052: ShoeMoldLoPoly
+    2300000: bench
+    2300002: BootOnlyLoPoly005
+    2300004: Broom
+    2300006: BuildingPiers
+    2300008: BuildingPiers001
+    2300010: BuildingPiers002
+    2300012: BuildingPiers003
+    2300014: BuildingPiers004
+    2300016: BuildingPiers005
+    2300018: Chair
+    2300020: Chimney
+    2300022: Door
+    2300024: ExteriorWindow
+    2300026: ExteriorWindow001
+    2300028: ExteriorWindow002
+    2300030: Hammer002
+    2300032: Hammer004
+    2300034: HeaterDrawerLoRes
+    2300036: HeaterLowRes
+    2300038: HorseBrush
+    2300040: HorseBrush001
+    2300042: LoPolyLantern
+    2300044: LoPolyShoe002
+    2300046: LoPolyShoe003
+    2300048: LoPolyShoe011
+    2300050: PotHolder
+    2300052: PotKnob
+    2300054: PotLoRes02
+    2300056: PotLoRes03
+    2300058: PotLowRes
+    2300060: ShelfLoPoly
+    2300062: shoeMold023
+    2300064: shoeMold025
+    2300066: ShoeshopExteriorLoPoly
+    2300068: ShoeshopInteriorloPoly
+    2300070: Sole
+    2300072: Sole001
+    2300074: Sole002
+    2300076: Sole003
+    2300078: Sole004
+    2300080: StoneStepLoPoly001
+    2300082: tableLoPoly
+    2300084: WallPanel
+    2300086: WallPanel001
+    2300088: WindowSillInterior
+    2300090: WindowSillInterior001
+    2300092: WindowSillInterior002
+    2300094: Wrench001
+    3300000: bench
+    3300002: BootOnlyLoPoly005
+    3300004: Broom
+    3300006: BuildingPiers
+    3300008: BuildingPiers001
+    3300010: BuildingPiers002
+    3300012: BuildingPiers003
+    3300014: BuildingPiers004
+    3300016: BuildingPiers005
+    3300018: Chair
+    3300020: Chimney
+    3300022: Door
+    3300024: ExteriorWindow
+    3300026: ExteriorWindow001
+    3300028: ExteriorWindow002
+    3300030: Hammer002
+    3300032: Hammer004
+    3300034: HeaterDrawerLoRes
+    3300036: HeaterLowRes
+    3300038: HorseBrush
+    3300040: HorseBrush001
+    3300042: LoPolyLantern
+    3300044: LoPolyShoe002
+    3300046: LoPolyShoe003
+    3300048: LoPolyShoe011
+    3300050: PotHolder
+    3300052: PotKnob
+    3300054: PotLoRes02
+    3300056: PotLoRes03
+    3300058: PotLowRes
+    3300060: ShelfLoPoly
+    3300062: shoeMold023
+    3300064: shoeMold025
+    3300066: ShoeshopExteriorLoPoly
+    3300068: ShoeshopInteriorloPoly
+    3300070: Sole
+    3300072: Sole001
+    3300074: Sole002
+    3300076: Sole003
+    3300078: Sole004
+    3300080: StoneStepLoPoly001
+    3300082: tableLoPoly
+    3300084: WallPanel
+    3300086: WallPanel001
+    3300088: WindowSillInterior
+    3300090: WindowSillInterior001
+    3300092: WindowSillInterior002
+    3300094: Wrench001
+    4300000: ShelfLoPoly
+    4300002: Chair
+    4300004: LoPolyLantern
+    4300006: PotLoRes02
+    4300008: PotLoRes03
+    4300010: PotLowRes
+    4300012: PotKnob
+    4300014: PotHolder
+    4300016: HeaterLowRes
+    4300018: HeaterDrawerLoRes
+    4300020: WallPanel
+    4300022: HorseBrush
+    4300024: HorseBrush001
+    4300026: Broom
+    4300028: StoneStepLoPoly001
+    4300030: bench
+    4300032: Hammer002
+    4300034: Hammer004
+    4300036: Wrench001
+    4300038: ShoeshopExteriorLoPoly
+    4300040: ShoeshopInteriorloPoly
+    4300042: Chimney
+    4300044: WindowSillInterior
+    4300046: WindowSillInterior001
+    4300048: ExteriorWindow
+    4300050: Sole
+    4300052: Sole001
+    4300054: Sole002
+    4300056: Sole003
+    4300058: Sole004
+    4300060: WallPanel001
+    4300062: tableLoPoly
+    4300064: Door
+    4300066: BuildingPiers
+    4300068: BuildingPiers001
+    4300070: BuildingPiers002
+    4300072: BuildingPiers003
+    4300074: BuildingPiers004
+    4300076: BuildingPiers005
+    4300078: LoPolyShoe002
+    4300080: LoPolyShoe003
+    4300082: LoPolyShoe011
+    4300084: BootOnlyLoPoly005
+    4300086: shoeMold023
+    4300088: shoeMold025
+    4300090: ExteriorWindow001
+    4300092: ExteriorWindow002
+    4300094: WindowSillInterior002
+    7400000: Take 001
+    9500000: //RootNode
+    11100000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bench
+    second: {fileID: 2100000, guid: 93a12eee1970843e4bd322fecf81b547, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BootLoPoly
+    second: {fileID: 2100000, guid: 418b1a1ae7415434b93e6b5b506bfbfc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Broom
+    second: {fileID: 2100000, guid: 4bb0ae807a4824d3c8fbb6471376ddac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Brush
+    second: {fileID: 2100000, guid: 2f27ddcda309343f6b48826b9b355213, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Chair
+    second: {fileID: 2100000, guid: 813bbf50bc60949299f094cae7c45bc3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Country
+    second: {fileID: 2100000, guid: b4a438c89c5da46ee99e7542a268b487, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DelanyCeramic1
+    second: {fileID: 2100000, guid: db0f337c004b047b1a7a300f94e3858d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DelanyCeramic2
+    second: {fileID: 2100000, guid: ac0645930b2ce42569d8d7abcf48bb71, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Door
+    second: {fileID: 2100000, guid: 3b9c5a516e4f6419b93591a949c7ea65, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ExteriorWindow
+    second: {fileID: 2100000, guid: 111355002783e40d9bd1cc8368b928d7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: InteriorWindow
+    second: {fileID: 2100000, guid: 723746dc347324c4cba24860b9b9749e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LeatherSole
+    second: {fileID: 2100000, guid: 689739af63b4b498f881d5d45264e3c5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LoPolyLantern
+    second: {fileID: 2100000, guid: 880726c690f8c433eb6bf6d3a422027d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #36'
+    second: {fileID: 2100000, guid: 3b0af1131e7ff48b4bb8e452a5f61331, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #37'
+    second: {fileID: 2100000, guid: 190e3f838a0514a91a96256384ef58c5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #38'
+    second: {fileID: 2100000, guid: b92282b934c434ea086e5187b362bc30, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pot
+    second: {fileID: 2100000, guid: 1db947a330dd045a88216f28708c5314, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shelf
+    second: {fileID: 2100000, guid: 42298dc6b4ef34154bdef35803d296d4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ShoeLopOly
+    second: {fileID: 2100000, guid: c509ac8a894a84b09a057027c17fd48d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ShoeMoldLoPoly
+    second: {fileID: 2100000, guid: 9bf0c5a79bd9d4bbb9c38f9195354af2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ShoeShopLoPoly
+    second: {fileID: 2100000, guid: 49cc5669ed8e543b59a14290f7323436, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shoeshop
+    second: {fileID: 2100000, guid: 677dc7637f56f4fb498fc1bc8c8ce1bf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ShopInteriorLopoly
+    second: {fileID: 2100000, guid: 453dce7aee92f4f6380f7bc0210f10df, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stove
+    second: {fileID: 2100000, guid: 0820435a4d0c84c0d9e86276f6c55d3d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StoveDrawer
+    second: {fileID: 2100000, guid: 6e369a5d38f5f4a99a08baa157f2c180, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TableLoPoly
+    second: {fileID: 2100000, guid: b92282b934c434ea086e5187b362bc30, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wrench
+    second: {fileID: 2100000, guid: 49d698ce7985140708e80483743c828c, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.6
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

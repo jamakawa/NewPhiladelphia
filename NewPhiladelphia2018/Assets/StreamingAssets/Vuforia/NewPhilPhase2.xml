@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="GuidePostWelcome" size="0.666700 0.666700" />
+    <ImageTarget name="GuidePost2" size="0.666700 0.666700" />
+    <ImageTarget name="GuidePost13" size="0.666700 0.666700" />
+    <ImageTarget name="GuidePost12" size="0.666700 0.666700" />
+    <ImageTarget name="GuidePost8" size="0.666700 0.666700" />
+    <ImageTarget name="GuidePost5" size="0.666700 0.666700" />
+    <ImageTarget name="GuidePost3" size="0.666700 0.666700" />
+  </Tracking>
+</QCARConfig>

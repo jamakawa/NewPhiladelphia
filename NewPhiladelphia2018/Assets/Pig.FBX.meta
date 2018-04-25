@@ -1,0 +1,246 @@
+fileFormatVersion: 2
+guid: b8fe63bbb084241f68b0048e2bcaf2f5
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Bone021
+    100002: Bone022
+    100004: Bone047
+    100006: Bone048
+    100008: Bone049
+    100010: Bone050
+    100012: Bone051
+    100014: Bone061
+    100016: Bone062
+    100018: Bone063
+    100020: Bone064
+    100022: Bone065
+    100024: Bone066
+    100026: Bone067
+    100028: Bone068
+    100030: Bone069
+    100032: Bone070
+    100034: Bone071
+    100036: Bone072
+    100038: Bone073
+    100040: Bone074
+    100042: Bone075
+    100044: Bone076
+    100046: Bone077
+    100048: Bone078
+    100050: Bone079
+    100052: Bone080
+    100054: Bone081
+    100056: Bone082
+    100058: Bone083
+    100060: Bone084
+    100062: Bone085
+    100064: Bone086
+    100066: IK Chain001
+    100068: IK Chain002
+    100070: IK Chain003
+    100072: IK Chain004
+    100074: //RootNode
+    100076: PigLoPoly
+    400000: Bone021
+    400002: Bone022
+    400004: Bone047
+    400006: Bone048
+    400008: Bone049
+    400010: Bone050
+    400012: Bone051
+    400014: Bone061
+    400016: Bone062
+    400018: Bone063
+    400020: Bone064
+    400022: Bone065
+    400024: Bone066
+    400026: Bone067
+    400028: Bone068
+    400030: Bone069
+    400032: Bone070
+    400034: Bone071
+    400036: Bone072
+    400038: Bone073
+    400040: Bone074
+    400042: Bone075
+    400044: Bone076
+    400046: Bone077
+    400048: Bone078
+    400050: Bone079
+    400052: Bone080
+    400054: Bone081
+    400056: Bone082
+    400058: Bone083
+    400060: Bone084
+    400062: Bone085
+    400064: Bone086
+    400066: IK Chain001
+    400068: IK Chain002
+    400070: IK Chain003
+    400072: IK Chain004
+    400074: //RootNode
+    400076: PigLoPoly
+    4300000: PigLoPoly
+    7400000: pigAnim
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: PigLoPoly
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: pigAnim
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 195
+      wrapMode: 4
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone021
+        weight: 1
+      - path: Bone021/Bone022
+        weight: 1
+      - path: Bone021/Bone022/Bone047
+        weight: 1
+      - path: Bone021/Bone022/Bone047/Bone048
+        weight: 1
+      - path: Bone021/Bone022/Bone047/Bone048/Bone049
+        weight: 1
+      - path: Bone021/Bone022/Bone047/Bone048/Bone049/Bone050
+        weight: 1
+      - path: Bone021/Bone022/Bone047/Bone048/Bone049/Bone050/Bone051
+        weight: 1
+      - path: Bone021/Bone022/Bone047/Bone048/Bone049/Bone050/Bone061
+        weight: 1
+      - path: Bone021/Bone022/Bone047/Bone048/Bone049/Bone050/Bone062
+        weight: 1
+      - path: Bone021/Bone022/Bone047/Bone063
+        weight: 1
+      - path: Bone021/Bone022/Bone047/Bone063/Bone064
+        weight: 1
+      - path: Bone021/Bone022/Bone047/Bone063/Bone064/Bone065
+        weight: 1
+      - path: Bone021/Bone022/Bone047/Bone063/Bone064/Bone065/Bone066
+        weight: 1
+      - path: Bone021/Bone022/Bone047/Bone077
+        weight: 1
+      - path: Bone021/Bone022/Bone047/Bone077/Bone078
+        weight: 1
+      - path: Bone021/Bone022/Bone047/Bone077/Bone078/Bone079
+        weight: 1
+      - path: Bone021/Bone022/Bone047/Bone077/Bone078/Bone079/Bone080
+        weight: 1
+      - path: Bone021/Bone067
+        weight: 1
+      - path: Bone021/Bone067/Bone068
+        weight: 1
+      - path: Bone021/Bone067/Bone068/Bone069
+        weight: 1
+      - path: Bone021/Bone067/Bone068/Bone069/Bone070
+        weight: 1
+      - path: Bone021/Bone067/Bone068/Bone069/Bone070/Bone071
+        weight: 1
+      - path: Bone021/Bone072
+        weight: 1
+      - path: Bone021/Bone072/Bone073
+        weight: 1
+      - path: Bone021/Bone072/Bone073/Bone074
+        weight: 1
+      - path: Bone021/Bone072/Bone073/Bone074/Bone075
+        weight: 1
+      - path: Bone021/Bone072/Bone073/Bone074/Bone075/Bone076
+        weight: 1
+      - path: Bone021/Bone081
+        weight: 1
+      - path: Bone021/Bone081/Bone082
+        weight: 1
+      - path: Bone021/Bone081/Bone082/Bone083
+        weight: 1
+      - path: Bone021/Bone081/Bone082/Bone083/Bone084
+        weight: 1
+      - path: Bone021/Bone081/Bone082/Bone083/Bone084/Bone085
+        weight: 1
+      - path: Bone021/Bone081/Bone082/Bone083/Bone084/Bone085/Bone086
+        weight: 1
+      - path: IK Chain001
+        weight: 1
+      - path: IK Chain002
+        weight: 1
+      - path: IK Chain003
+        weight: 1
+      - path: IK Chain004
+        weight: 1
+      - path: PigLoPoly
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 

@@ -1,0 +1,230 @@
+fileFormatVersion: 2
+guid: 44d968c0d4bb041b3a0c3f25fa5c580c
+timeCreated: 1522251794
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Bone063
+    100002: Bone064
+    100004: Bone065
+    100006: Bone066
+    100008: Bone067
+    100010: Bone068
+    100012: Bone069
+    100014: Bone070
+    100016: Bone071
+    100018: Bone072
+    100020: Bone073
+    100022: Bone074
+    100024: Bone075
+    100026: Bone076
+    100028: Bone077
+    100030: Bone078
+    100032: Bone079
+    100034: Bone080
+    100036: Bone081
+    100038: Bone082
+    100040: Bone083
+    100042: Bone084
+    100044: Bone085
+    100046: Bone086
+    100048: Bone087
+    100050: Bone088
+    100052: Bone089
+    100054: Bone090
+    100056: Bone092
+    100058: Bone093
+    100060: Bone094
+    100062: Bone095
+    100064: Bone096
+    100066: Bone097
+    100068: Bone098
+    100070: Bone099
+    100072: Bone100
+    100074: Cow001
+    100076: Horn
+    100078: Horn001
+    100080: IK Chain010
+    100082: IK Chain011
+    100084: IK Chain012
+    100086: IK Chain015
+    100088: IK Chain016
+    100090: //RootNode
+    400000: Bone063
+    400002: Bone064
+    400004: Bone065
+    400006: Bone066
+    400008: Bone067
+    400010: Bone068
+    400012: Bone069
+    400014: Bone070
+    400016: Bone071
+    400018: Bone072
+    400020: Bone073
+    400022: Bone074
+    400024: Bone075
+    400026: Bone076
+    400028: Bone077
+    400030: Bone078
+    400032: Bone079
+    400034: Bone080
+    400036: Bone081
+    400038: Bone082
+    400040: Bone083
+    400042: Bone084
+    400044: Bone085
+    400046: Bone086
+    400048: Bone087
+    400050: Bone088
+    400052: Bone089
+    400054: Bone090
+    400056: Bone092
+    400058: Bone093
+    400060: Bone094
+    400062: Bone095
+    400064: Bone096
+    400066: Bone097
+    400068: Bone098
+    400070: Bone099
+    400072: Bone100
+    400074: Cow001
+    400076: Horn
+    400078: Horn001
+    400080: IK Chain010
+    400082: IK Chain011
+    400084: IK Chain012
+    400086: IK Chain015
+    400088: IK Chain016
+    400090: //RootNode
+    2100000: Cow
+    2100002: Horn
+    2300000: Horn
+    2300002: Horn001
+    3300000: Horn
+    3300002: Horn001
+    4300000: Cow001
+    4300002: Horn
+    4300004: Horn001
+    7400000: OxWalking
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Cow001
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cow
+    second: {fileID: 2100000, guid: c35f335028a7f4db1b4a43eddea28c70, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Horn
+    second: {fileID: 2100000, guid: 4fcf1e380e48c402fb1e91376bc9f97e, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: OxWalking
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 57
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 3.2
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
