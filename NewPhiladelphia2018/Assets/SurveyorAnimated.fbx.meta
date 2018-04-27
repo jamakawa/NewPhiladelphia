@@ -213,9 +213,9 @@ ModelImporter:
     - serializedVersion: 16
       name: SurveyorAnima
       takeName: Take 001
-      firstFrame: 0
-      lastFrame: 672.00006
-      wrapMode: 2
+      firstFrame: 338
+      lastFrame: 526
+      wrapMode: 4
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0

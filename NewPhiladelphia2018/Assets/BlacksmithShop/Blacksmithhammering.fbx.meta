@@ -249,8 +249,8 @@ ModelImporter:
     - serializedVersion: 16
       name: BlacksmithHammering
       takeName: Take 001
-      firstFrame: 2
-      lastFrame: 377.00003
+      firstFrame: 0
+      lastFrame: 251
       wrapMode: 2
       orientationOffsetY: 0
       level: 0
@@ -277,7 +277,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 3
+    globalScale: 1.3
     meshCompression: 0
     addColliders: 0
     importVisibility: 1
