@@ -340,21 +340,37 @@ public class ARGuidebookGUI : MonoBehaviour {
 	}
 
 	private void UpdatePOIs() {
-		// remove any that aren't selected
-		foreach (PointOfInterest poi in selectedPOIs) {
-			if (!IsSelectedPOI(poi)) {
-				if (poi == focusedPOI) {
-					focusedPOI.Unfocus();
-					POIUnfocused(focusedPOI);
-					focusedPOI = null;
-				}
-				selectedPOIs.Remove(poi);
-				poi.Deactivate();
-				POIDeactivated(poi);
-			}
-		}
+        // remove any that aren't selected
+        //foreach (PointOfInterest poi in selectedPOIs) {
+        //	if (!IsSelectedPOI(poi)) {
+        //		if (poi == focusedPOI) {
+        //			focusedPOI.Unfocus();
+        //			POIUnfocused(focusedPOI);
+        //			focusedPOI = null;
+        //		}
+        //		selectedPOIs.Remove(poi);
+        //		poi.Deactivate();
+        //		POIDeactivated(poi);
+        //	}
+        //}
+        for (int i = 0; i < selectedPOIs.Count; i++)
+        {
+            var poi = selectedPOIs[i];
+            if (!IsSelectedPOI(poi))
+            {
+                if (poi == focusedPOI)
+                {
+                    focusedPOI.Unfocus();
+                    POIUnfocused(focusedPOI);
+                    focusedPOI = null;
+                }
+                selectedPOIs.Remove(poi);
+                poi.Deactivate();
+                POIDeactivated(poi);
+            }
+        }
 
-		PointOfInterest newFocus = focusedPOI;
+        PointOfInterest newFocus = focusedPOI;
 
 		PointOfInterest[] pois = GetComponentsInChildren<PointOfInterest>();
 
@@ -440,12 +456,14 @@ public class ARGuidebookGUI : MonoBehaviour {
 				Page = GUIPage.TrackingLost;
 				bannerText = "Please re-center one of the Virtual Guideposts\u2122 in the box.";
 				
-			    SetSelectedTarget(null);
+			   
+                
 				selectedTarget.Deactivate();
 				TargetDeactivated(selectedTarget);
 				displayTargetButton= false;
-				
-			}
+                SetSelectedTarget(null);
+
+                }
 				//This displays the reset target text
 				GUI.Label(new Rect(Screen.width-Screen.height/6,Screen.height/100.0f, Screen.height/6, Screen.height/10), "reset", "itemsLabel");
 

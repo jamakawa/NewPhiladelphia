@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using Vuforia;
+using UnityEngine.Playables;
 
 [RequireComponent(typeof(TrackableBehaviour))]
 public class TargetAnnotation : MonoBehaviour {
@@ -11,6 +12,7 @@ public class TargetAnnotation : MonoBehaviour {
 
 	public PointOfInterest[] TargetPointsOfInterest;
 	public PointOfInterest[] AdditionalPointsOfInterest;
+    public PlayableDirector tl_Director;
 
 	// Methods
 	public POIType GetPOIType(PointOfInterest poi) {
@@ -39,6 +41,11 @@ public class TargetAnnotation : MonoBehaviour {
 		if (GetComponent<AudioSource>() != null && GetComponent<AudioSource>().clip != null) {
             GetComponent<AudioSource>().Play();
 		}
+
+        //play director
+        if (tl_Director != null && tl_Director.state != PlayState.Playing)
+            tl_Director.Play();
+
 	}
 
 	/*** Put code here when this guidepost becomes inactive ***/
@@ -53,5 +60,10 @@ public class TargetAnnotation : MonoBehaviour {
 		//stops the audio clip
 		if (GetComponent<AudioSource>() != null)
             GetComponent<AudioSource>().Stop();
+
+        if(tl_Director != null && tl_Director.state == PlayState.Playing)
+        {
+            tl_Director.Stop();
+        }
 	}
 }
