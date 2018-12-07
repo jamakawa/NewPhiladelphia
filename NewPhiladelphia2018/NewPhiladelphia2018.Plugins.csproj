@@ -243,8 +243,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Plugins\LeanAudio.cs" />
     <Compile Include="Assets\Plugins\LeanTest.cs" />
     <Compile Include="Assets\Plugins\LeanTween.cs" />
+    <Compile Include="Assets\Plugins\NativeShare.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Editor\Vuforia\CylinderTargetTextures\VuforiaMars_Images\authoringinfo.xml" />
