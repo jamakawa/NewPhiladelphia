@@ -477,8 +477,8 @@ public class ARGuidebookGUI : MonoBehaviour
 
     private void BannerGUI()
     {
-        if (bannerText != "")
-        {
+
+           
             //This controls the size and position of the top most GUI Box that says To get Started....
             Rect rect = new Rect(0, 0, Screen.width, Screen.height / 10);
             GUILayout.BeginArea(rect, GUI.skin.box);
@@ -506,36 +506,33 @@ public class ARGuidebookGUI : MonoBehaviour
                 SceneManager.LoadScene(0);
 
             }
-
-
+            // *Reset button commented as per Jon's request*
 
             //This determines whether or not to display the Target Button on upper right side of screen
-            if (displayTargetButton)
-            {
+            //if (displayTargetButton)
+            //{
+              
+            //    //Reset Target Box Button
+            //    if (GUI.Button(new Rect(Screen.width - Screen.height / 8, 10, Screen.height / 12, Screen.height / 12), "", "homeButton"))
+            //    {
 
-                //Reset Target Box Button
-                if (GUI.Button(new Rect(Screen.width - Screen.height / 8, 10, Screen.height / 12, Screen.height / 12), "", "homeButton"))
-                {
+            //        displayMessage = false;
+            //        displayImage = false;
+            //        //Put home code here
 
-                    displayMessage = false;
-                    displayImage = false;
-                    //Put home code here
+            //        Page = GUIPage.TrackingLost;
+            //        bannerText = "Please re-center one of the Virtual Guideposts\u2122 in the box.";
 
-                    Page = GUIPage.TrackingLost;
-                    bannerText = "Please re-center one of the Virtual Guideposts\u2122 in the box.";
+            //        selectedTarget.Deactivate();
+            //        TargetDeactivated(selectedTarget);
+            //        displayTargetButton = false;
+            //        SetSelectedTarget(null);
 
+            //    }
+            //    //This displays the reset target text
+            //   // GUI.Label(new Rect(Screen.width - Screen.height / 6, Screen.height / 100.0f, Screen.height / 6, Screen.height / 10), "reset", "itemsLabel");
 
-
-                    selectedTarget.Deactivate();
-                    TargetDeactivated(selectedTarget);
-                    displayTargetButton = false;
-                    SetSelectedTarget(null);
-
-                }
-                //This displays the reset target text
-                GUI.Label(new Rect(Screen.width - Screen.height / 6, Screen.height / 100.0f, Screen.height / 6, Screen.height / 10), "reset", "itemsLabel");
-
-            }
+            //}
 
 
             //This draws the items label above the artifacts
@@ -623,12 +620,7 @@ public class ARGuidebookGUI : MonoBehaviour
 
                 }
 
-            }
-
-
-        }
-        else
-        {
+            }  
 #if UNITY_EDITOR || UNITY_ANDROID || UNITY_IOS
             if (Page == GUIPage.None)
             { // only when tracking and no menus are on screen
@@ -644,7 +636,7 @@ public class ARGuidebookGUI : MonoBehaviour
                 }
             }
 #endif
-        }
+        
     }
 
 
