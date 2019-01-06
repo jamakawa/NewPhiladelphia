@@ -252,6 +252,7 @@
     <Compile Include="Assets\DistanceTool\DistanceTool.cs" />
     <Compile Include="Assets\Other tools\Glow\Demo Scene\enciende.cs" />
     <Compile Include="Assets\Other tools\Glow\shaderGlow.cs" />
+    <Compile Include="Assets\PlaySoundAnim.cs" />
     <Compile Include="Assets\sceneObjectTextImageScript.cs" />
     <Compile Include="Assets\sceneObjectTextScript.cs" />
     <Compile Include="Assets\Scripts\ApplyDecal.cs" />
