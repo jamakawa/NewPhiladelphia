@@ -74,7 +74,7 @@ public class ARGuidebookGUI : MonoBehaviour
     private GUIStyle trackingBoxStyle = new GUIStyle();
 
     private string bannerText = "";
-
+    private bool inStartMenu;
     private TargetAnnotation selectedTarget = null;
     private List<PointOfInterest> selectedPOIs = new List<PointOfInterest>();
     private PointOfInterest focusedPOI = null;
@@ -129,6 +129,7 @@ public class ARGuidebookGUI : MonoBehaviour
 
         Page = GUIPage.Instructions;
         bannerText = "";
+        inStartMenu = true;
         trackingBoxStyle.normal.background = TrackingBoxTexture;
     }
 
@@ -352,6 +353,7 @@ public class ARGuidebookGUI : MonoBehaviour
     /*** Put code here when a new point of interest becomes focused ***/
     private void POIFocused(PointOfInterest poi)
     {
+        inStartMenu = false;
     }
 
     /*** Put code here when a point of interest becomes unfocused ***/
@@ -477,8 +479,8 @@ public class ARGuidebookGUI : MonoBehaviour
 
     private void BannerGUI()
     {
-
-           
+        if (!inStartMenu)
+        {
             //This controls the size and position of the top most GUI Box that says To get Started....
             Rect rect = new Rect(0, 0, Screen.width, Screen.height / 10);
             GUILayout.BeginArea(rect, GUI.skin.box);
@@ -511,7 +513,7 @@ public class ARGuidebookGUI : MonoBehaviour
             //This determines whether or not to display the Target Button on upper right side of screen
             //if (displayTargetButton)
             //{
-              
+
             //    //Reset Target Box Button
             //    if (GUI.Button(new Rect(Screen.width - Screen.height / 8, 10, Screen.height / 12, Screen.height / 12), "", "homeButton"))
             //    {
@@ -537,7 +539,6 @@ public class ARGuidebookGUI : MonoBehaviour
 
             //This draws the items label above the artifacts
             //GUI.Label(new Rect(Screen.width-Screen.height/6,Screen.height/14.2f, Screen.height/6, Screen.height/10), "artifacts", "itemsLabel");
-
 
             //This draws the Thimble Inventory icon
             if (thimbleFound == false)
@@ -620,12 +621,12 @@ public class ARGuidebookGUI : MonoBehaviour
 
                 }
 
-            }  
+            }
 #if UNITY_EDITOR || UNITY_ANDROID || UNITY_IOS
             if (Page == GUIPage.None)
             { // only when tracking and no menus are on screen
               // Screenshot Button       
-               // Debug.Log(focusedPOI.Title);
+              // Debug.Log(focusedPOI.Title);
                 if (GUI.Button(new Rect(Screen.width - 20 - Screen.height / 10, 5, Screen.height / 10, Screen.height / 10), ScreenshotButtonTexture, "inventoryButton"))
                 {
                     Debug.Log("Pressed");
@@ -636,6 +637,7 @@ public class ARGuidebookGUI : MonoBehaviour
                 }
             }
 #endif
+        }
         
     }
 
@@ -666,8 +668,6 @@ public class ARGuidebookGUI : MonoBehaviour
     private void IntroGUI()
     {
 
-
-
         //This displays title image
         //GUI.Box(new Rect(15, Screen.height-50, Screen.height, Screen.height/20), "Funded by the National Park Service Underground Railroad Network to Freedom and the Illinois Rural Electric Cooperative", "courtesy");
 
@@ -690,13 +690,11 @@ public class ARGuidebookGUI : MonoBehaviour
             bannerText = "To get started, center one of the Virtual Guideposts\u2122 in the box.";
             playAnimatedTitle = false;
             guiInput = true;
-
+            inStartMenu = false;
             //temporary prompt to find the artifacts
             displayArtifactPrompt = true;
 
             mainMessageTimer = 40.0f;
-
-
         }
 
 
