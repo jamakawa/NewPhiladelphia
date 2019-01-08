@@ -1,0 +1,178 @@
+fileFormatVersion: 2
+guid: f140e12e4dd7d41c5bfaf6469d82f478
+timeCreated: 1546985865
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Avil
+    100002: Axe
+    100004: //RootNode
+    100006: Barrel
+    100008: Barrel001
+    100010: Barrel002
+    100012: BlacksmithChimney
+    100014: BlacksmithShopExterior
+    100016: BlacksmithShopInterior
+    100018: Hammer002
+    100020: Longhammer
+    100022: TreeStump
+    100024: WellBucket001
+    100026: WellBucket002
+    100028: Wrench001
+    400000: Avil
+    400002: Axe
+    400004: //RootNode
+    400006: Barrel
+    400008: Barrel001
+    400010: Barrel002
+    400012: BlacksmithChimney
+    400014: BlacksmithShopExterior
+    400016: BlacksmithShopInterior
+    400018: Hammer002
+    400020: Longhammer
+    400022: TreeStump
+    400024: WellBucket001
+    400026: WellBucket002
+    400028: Wrench001
+    2100000: Barninterior
+    2100002: BlacksmithChimney
+    2100004: anvil
+    2100006: TreeStump
+    2100008: 11 - Default
+    2100010: Country
+    2100012: LongHammer
+    2100014: Bucketrevised
+    2100016: 13 - Default
+    2100018: Barrel
+    2100020: 01 - Default
+    2300000: Avil
+    2300002: Axe
+    2300004: Barrel
+    2300006: Barrel001
+    2300008: Barrel002
+    2300010: BlacksmithChimney
+    2300012: BlacksmithShopExterior
+    2300014: BlacksmithShopInterior
+    2300016: Hammer002
+    2300018: Longhammer
+    2300020: TreeStump
+    2300022: WellBucket001
+    2300024: WellBucket002
+    2300026: Wrench001
+    2300028: //RootNode
+    3300000: Avil
+    3300002: Axe
+    3300004: Barrel
+    3300006: Barrel001
+    3300008: Barrel002
+    3300010: BlacksmithChimney
+    3300012: BlacksmithShopExterior
+    3300014: BlacksmithShopInterior
+    3300016: Hammer002
+    3300018: Longhammer
+    3300020: TreeStump
+    3300022: WellBucket001
+    3300024: WellBucket002
+    3300026: Wrench001
+    3300028: //RootNode
+    4300000: BlacksmithShopInterior
+    4300002: BlacksmithChimney
+    4300004: Avil
+    4300006: TreeStump
+    4300008: Wrench001
+    4300010: Hammer002
+    4300012: Longhammer
+    4300014: WellBucket001
+    4300016: WellBucket002
+    4300018: Axe
+    4300020: Barrel
+    4300022: Barrel001
+    4300024: Barrel002
+    4300026: BlacksmithShopExterior
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 01 - Default
+    second: {fileID: 2100000, guid: 004c0aa46b2fe48168c468e7324dc352, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 4
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
