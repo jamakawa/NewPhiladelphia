@@ -343,11 +343,13 @@ public class ARGuidebookGUI : MonoBehaviour
     /*** Put code here when a point of interest comes into view ***/
     private void POIActivated(PointOfInterest poi)
     {
+        poi.transform.GetChild(0).gameObject.SetActive(true);
     }
 
     /*** Put code here when a point of interest leave the view or is hidden ***/
     private void POIDeactivated(PointOfInterest poi)
     {
+        poi.transform.GetChild(0).gameObject.SetActive(false);
     }
 
     /*** Put code here when a new point of interest becomes focused ***/
