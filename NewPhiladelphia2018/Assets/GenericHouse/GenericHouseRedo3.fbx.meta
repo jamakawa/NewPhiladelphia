@@ -1,0 +1,151 @@
+fileFormatVersion: 2
+guid: 12e5aeb8562b040cc95b8bd0ae044fba
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: BacKDoorFrame
+    100002: Chimney001
+    100004: Door
+    100006: Door001
+    100008: //RootNode
+    100010: JenkinslHouseNorthLoPoly
+    100012: Porch
+    100014: Windowpanes
+    100016: JenkinslHouseNorthLoPoly001
+    100018: Windowpanes001
+    400000: BacKDoorFrame
+    400002: Chimney001
+    400004: Door
+    400006: Door001
+    400008: //RootNode
+    400010: JenkinslHouseNorthLoPoly
+    400012: Porch
+    400014: Windowpanes
+    400016: JenkinslHouseNorthLoPoly001
+    400018: Windowpanes001
+    2100000: 07___Default
+    2100002: PorchSubstance
+    2100004: ChimneyDoorWindowsSubstance
+    2300000: BacKDoorFrame
+    2300002: Chimney001
+    2300004: Door
+    2300006: Door001
+    2300008: JenkinslHouseNorthLoPoly
+    2300010: Porch
+    2300012: Windowpanes
+    2300014: JenkinslHouseNorthLoPoly001
+    2300016: Windowpanes001
+    3300000: BacKDoorFrame
+    3300002: Chimney001
+    3300004: Door
+    3300006: Door001
+    3300008: JenkinslHouseNorthLoPoly
+    3300010: Porch
+    3300012: Windowpanes
+    3300014: JenkinslHouseNorthLoPoly001
+    3300016: Windowpanes001
+    4300000: JenkinslHouseNorthLoPoly
+    4300002: Porch
+    4300004: Windowpanes
+    4300006: Door
+    4300008: Chimney001
+    4300010: BacKDoorFrame
+    4300012: Door001
+    4300014: Windowpanes001
+    4300016: JenkinslHouseNorthLoPoly001
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 07___Default
+    second: {fileID: 2100000, guid: d5b574ef4e7fa49af89993a91a27d0b6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ChimneyDoorWindowsSubstance
+    second: {fileID: 2100000, guid: 0f2d760122aea41b687361317158c861, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PorchSubstance
+    second: {fileID: 2100000, guid: aa54a4b3476bf425f86ad33299d1938d, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 3.4
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
