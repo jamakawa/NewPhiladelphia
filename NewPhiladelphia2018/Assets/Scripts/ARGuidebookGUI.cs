@@ -900,7 +900,8 @@ public class ARGuidebookGUI : MonoBehaviour
 
         GUILayout.BeginVertical(GUI.skin.box);
         GUILayout.Label("Camera Direction", headingStyle);
-        CameraDevice.CameraDirection camDir = EnumToolbar(CameraDevice.Instance.GetCameraDirection(), new string[] { "Back", "Front" }, new CameraDevice.CameraDirection[] { CameraDevice.CameraDirection.CAMERA_BACK, CameraDevice.CameraDirection.CAMERA_FRONT }, ToolbarStyle.Horizontal);
+        // Legacy code from vuforia 7.0. Leaving commented for debugging if this needs to be replaced with a modern implementation
+       // CameraDevice.CameraDirection camDir = EnumToolbar(CameraDevice.Instance.GetCameraDirection(), new string[] { "Back", "Front" }, new CameraDevice.CameraDirection[] { CameraDevice.CameraDirection.CAMERA_BACK, CameraDevice.CameraDirection.CAMERA_FRONT }, ToolbarStyle.Horizontal);
         GUILayout.EndVertical();
         GUILayout.BeginVertical(GUI.skin.box);
         GUILayout.Label("Camera Mode", headingStyle);
@@ -913,7 +914,7 @@ public class ARGuidebookGUI : MonoBehaviour
 
             CameraDevice.Instance.Stop();
             CameraDevice.Instance.Deinit();
-            CameraDevice.Instance.Init(camDir);
+            CameraDevice.Instance.Init();
             CameraDevice.Instance.SelectVideoMode(cameraDeviceMode);
             CameraDevice.Instance.Start();
         }

@@ -47,8 +47,9 @@ public class VuforiaTargetSelector : TargetSelector {
 
 	// Unity Events
 	protected virtual void Start() {
-		if (ImageTracker != null)
-			ImageTracker.PersistExtendedTracking(PersistExtendedTracking);
+        // Legacy code from vuforia 7.0. Leaving to help track old functionality if this needs to be replaced with alternate method
+		//if (ImageTracker != null)
+		//	ImageTracker.PersistExtendedTracking(PersistExtendedTracking);
 
 		VuforiaARController.Instance.RegisterVuforiaInitializedCallback(OnVuforiaInitialized);
         VuforiaARController.Instance.RegisterTrackablesUpdatedCallback(OnTrackablesUpdated);
@@ -90,22 +91,24 @@ public class VuforiaTargetSelector : TargetSelector {
 	}
 
 	public void SetPersistExtendedTracking(bool persistExtendedTracking) {
-		if (persistExtendedTracking != PersistExtendedTracking) {
-			if (ImageTracker != null && ImageTracker.PersistExtendedTracking(persistExtendedTracking))
-				PersistExtendedTracking = persistExtendedTracking;
-		}
-	}
-	
-	protected void UpdateExtendedTracking() {
-		foreach (TrackableBehaviour trackable in Trackables) {
-			ObjectTarget extendedTrackable = trackable.Trackable as ObjectTarget;
-			if (extendedTrackable != null)
-			{
-				if (UseExtendedTracking)
-					extendedTrackable.StartExtendedTracking();
-				else
-					extendedTrackable.StopExtendedTracking();
-			}
-		}
-	}
+        // Legacy code from vuforia 7.0. Leaving commented for debugging if this needs to be replaced with a modern implementation
+        //if (persistExtendedTracking != PersistExtendedTracking) {
+        //	if (ImageTracker != null && ImageTracker.PersistExtendedTracking(persistExtendedTracking))
+        //		PersistExtendedTracking = persistExtendedTracking;
+        //}
+    }
+
+    protected void UpdateExtendedTracking() {
+        // Legacy code from vuforia 7.0. Leaving commented for debugging if this needs to be replaced with a modern implementation
+        //foreach (TrackableBehaviour trackable in Trackables) {
+        //	ObjectTarget extendedTrackable = trackable.Trackable as ObjectTarget;
+        //	if (extendedTrackable != null)
+        //	{
+        //		if (UseExtendedTracking)
+        //			extendedTrackable.StartExtendedTracking();
+        //		else
+        //			extendedTrackable.StopExtendedTracking();
+        //	}
+        //}
+    }
 }
